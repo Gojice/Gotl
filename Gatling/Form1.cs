@@ -199,7 +199,7 @@ namespace Gatling
             cbHomeSun.Enabled = cbSun.Checked;
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void Form1_Load(object sender, EventArgs ss)
         {
             if(AppSettings.Default.sun == "N")
             {
